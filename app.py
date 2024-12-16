@@ -12,7 +12,7 @@ def index():
    return render_template('index.html')
 
 @app.route('/counter')
-def index():
+def counter():
    print('Request for index page received')
    return render_template('counter_index.html')
 
